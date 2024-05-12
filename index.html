@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <!-- Cree la barra de Navegacion-->
+    <nav class="navbar navbar-expand-sm navbar-dark p-4">
+        <div class="container-fluid">
+                <a class="navbar-brand" href="#" > <i class="bi bi-brush"></i>   Galería de Arte</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#HAMBURGUESA">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="HAMBURGUESA">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Se crea la el carrusel de imagenes-->
+    <section>
+
+        <div class="container  text-center pt-5">
+
+            <h1>Te damos la bienvenida a nuestra galería de arte</h1>
+            <br><br>
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="carrusel" src="./img/portada-1.png" alt="Cuadro de pintura 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carrusel" src="./img/portada-2.png"  alt="Cuadro de pintura 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carrusel" src="./img/portada-3.png"  alt="Cuadro de pintura 2">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            </div>
+    </section>
+<br>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Bienvenido a nuestra galería de arte, un espacio donde las emociones encuentran su expresión más vívida y donde
+                        las formas y colores se entrelazan para contar historias sin palabras. Sumérgete en un universo donde la creatividad
+                        es la moneda de cambio y cada obra es un portal hacia nuevas experiencias estéticas. Desde las pinceladas más delicadas
+                        hasta las esculturas más imponentes, nuestra galería te invita a explorar el poder transformador del arte y a encontrar
+                        inspiración en cada rincón. Déjate llevar por el arte y descubre un mundo donde la imaginación no conoce límites.
+                        <b>¡Bienvenido a un viaje de descubrimiento visual!</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <section class="seleccion_division">
+
+        <h2>La mejor galeria del mundo!!!</h2>
+
+    </section>
+
+    <br><br>
+    <section>
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="col-fluid" >
+                    <figure class="figure">
+                        <img class="pintura_soñadoras"  src="./img/pintura_mujer.png" class="figure-img img-fluid" alt="Pintura de las mujeres soñadoras">
+                        <figcaption class="figure-caption">Imagen de las 3 mujeres soñadoras</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="seleccion_division2">
+            <p class="contactanos">contáctanos en redes sociales:</p>
+            <i class="bi bi-instagram "></i>
+            <i class="bi bi-facebook redes"></i>
+            <i class="bi bi-whatsapp redes"></i>
+            <i class="bi bi-youtube redes"></i>
+
+        </section>
+
+
+</body>
+</html>
